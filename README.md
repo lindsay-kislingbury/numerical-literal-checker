@@ -18,10 +18,6 @@ Our implementation strictly follows Python's language specification (sections 2.
 
 According to the [Python documentation](https://docs.python.org/3/reference/lexical_analysis.html#numeric-literals):
 
-> There are three types of numeric literals: integers, floating-point numbers, and imaginary numbers. There are no complex literals (complex numbers can be formed by adding a real number and an imaginary number).
->
-> Note that numeric literals do not include a sign; a phrase like `-1` is actually an expression composed of the unary operator '`-`' and the literal `1`.
-
 ### Integer Literals
 
 Integer literals are described by the following lexical definitions:
