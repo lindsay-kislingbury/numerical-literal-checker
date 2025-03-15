@@ -1,6 +1,6 @@
-from decimal import decimal_integer_checker
-from octal import octal_integer_checker
-from hex import hexadecimal_integer_checker
+from dec_checker import decimal_integer_checker
+from octal_checker import octal_integer_checker
+from hex_checker import hexadecimal_integer_checker
 
 def combined_checker(input_str):
     if decimal_integer_checker(input_str):
