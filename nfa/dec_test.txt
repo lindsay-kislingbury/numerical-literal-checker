@@ -1,0 +1,11 @@
+0 accept
+10 accept
+10000 accept
+1_1 accept
+34 accept
+23456 accept
+123456789 accept
+000005 reject
+___0 reject
+3___4 reject
+4_ reject
