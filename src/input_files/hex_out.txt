@@ -1,0 +1,27 @@
+Test Input | Expected | Actual | Pass/Fail
+--------------------------------------------------
+0x0 | accept | accept | PASS
+0X0 | accept | accept | PASS
+0x123 | accept | accept | PASS
+0xabc | accept | accept | PASS
+0xABC | accept | accept | PASS
+0x1a2b | accept | accept | PASS
+0xffff | accept | accept | PASS
+0x1_2 | accept | accept | PASS
+0x1_2_3 | accept | accept | PASS
+0x_123 | accept | accept | PASS
+0xdead_beef | accept | accept | PASS
+0x_1_2_3_4 | accept | accept | PASS
+0x | reject | reject | PASS
+0x_ | reject | reject | PASS
+0xG | reject | reject | PASS
+0x123G | reject | reject | PASS
+0x123_ | reject | reject | PASS
+0x__123 | reject | reject | PASS
+0x1__23 | reject | reject | PASS
+123 | reject | reject | PASS
+0y123 | reject | reject | PASS
+0x 123 | reject | reject | PASS
+-0x123 | reject | reject | PASS
+0x-123 | reject | reject | PASS
+ 0x123 | reject | reject | PASS
